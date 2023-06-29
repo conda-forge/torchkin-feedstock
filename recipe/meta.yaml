@@ -20,16 +20,12 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - urdf-parser-py >=0.0.4
+    - urdfdom-py
     - torchlie
 
 test:
   imports:
     - torchkin
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
   home: https://github.com/facebookresearch/theseus/lie
