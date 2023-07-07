@@ -1,5 +1,5 @@
 {% set name = "torchkin" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/torchkin-{{ version }}.tar.gz
-  sha256: 42676bcbc08111e1fb3ac13376ca73ed0e5df0bec1fb3d48239a08006b4f4719
+  sha256: 7827345ff787469a461aaf453bb33da968107886536fa4f2b00d1c0f006b6450
 
 build:
   noarch: python
